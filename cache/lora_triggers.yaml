@@ -1,0 +1,22 @@
+# LoRA Trigger Configuration
+# Each LoRA entry should have:
+# - filename: The name of the LoRA file
+# - strength: The strength to apply the LoRA (typically between 0.0 and 1.0)
+# - keywords: List of trigger words or phrases that will activate this LoRA
+#            (phrases can contain multiple words like "red hair" or "wearing glasses")
+
+loras:
+  # Example LoRA configuration (uncomment and modify to use):
+  # - filename: example_lora.safetensors
+  #   strength: 0.75
+  #   keywords:
+  #     - red hair
+  #     - wearing glasses
+  #     - simple keyword
+  - filename: video/kerbal30.safetensors
+    strength: 1.0
+    use_block_cache: false
+    use_single_blocks: false
+    keywords:
+        - kerbal
+        - green alien
