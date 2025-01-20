@@ -13,10 +13,3 @@ loras:
   #     - red hair
   #     - wearing glasses
   #     - simple keyword
-  - filename: video/kerbal30.safetensors
-    strength: 1.0
-    use_block_cache: false
-    use_single_blocks: false
-    keywords:
-        - kerbal
-        - green alien
