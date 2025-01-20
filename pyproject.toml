@@ -1,0 +1,14 @@
+[project]
+name = "pixelfun"
+description = "This collection provides four additional nodes for loading and managing Hunyuan Video LoRAs in ComfyUI"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/PixelFunAI/ComfyUI_PixelFun"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_PixelFun"
+Icon = ""
